@@ -1,0 +1,29 @@
+---
+title: "Devpdt"
+author: "Kristine Loh"
+date: "4 May 2016"
+output: html_document
+---
+##Developing Data Product Assignment
+
+###Introduction
+Part 1: Shiny to build data product application  
+Part 2: R-Presentation or slidify to create data product related presentations
+
+###The Application
+The (mtcars) database is used for the application. The link to the application is https://kristineloh.shinyapps.io/Codes/
+
+The app allows to perform interactive data analysis from a set of user specified criterias:
+
+1. Selling price of gasoline (USD/gallon)
+2. Desired travel distance in miles
+
+###Source Codes
+The source codes for ui.R and server.R files are  available on 
+
+###The Data
+The data used in the app comes from the (mtcars) dataset. Part of the data is shown below:
+
+```{r}
+head(mtcars)
+```
